@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.SearchPanel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background-color: #2e2e33;
+    color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.PaddingTopHorizontal {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CloseIcon__inline-block {
+    display: inline-block;
+}
+
+.CloseIcon__container {
+    width: 32px;
+    height: 32px;
+    color: #ebecee;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchPanelInput {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center
+}
+
+.SearchPanelInput__input {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: transparent;
+    outline: none;
+    resize: none;
+    border: none;
+    flex-grow: 1;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f5f6f7;
+}
+
+.SearchPanelInput__input::-webkit-input-placeholder {
+    color: #a8a9b3;
+}
