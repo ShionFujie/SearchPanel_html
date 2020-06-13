@@ -94,6 +94,10 @@ body ::-webkit-scrollbar-thumb {
   display: flex;
 }
 
+.SearchPanelItem:hover {
+    background-color: #37383e;
+}
+
 .SearchPanelItem__icon {
   margin-right: 12px;
   display: flex;
