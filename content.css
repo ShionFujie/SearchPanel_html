@@ -37,11 +37,17 @@ body {
 .CloseIcon__container {
   width: 32px;
   height: 32px;
+  border-radius: 4px;
   color: #ebecee;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.CloseIcon__container:hover {
+  color: #f5f6f7;
+  background-color: #37383e;
 }
 
 .SearchPanelInput {
